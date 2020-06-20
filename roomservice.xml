@@ -20,6 +20,7 @@
   #####################################################-->
   <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" />
   <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="vendor/lineage" name="android_vendor_lineage" />
   
   <!--remove-project path="hardware/qcom/power" name="LineageOS/android_hardware_qcom_power" groups="pdk" />-->
 
@@ -54,6 +55,8 @@
   <project name="android_vendor_fdroid" path="vendor/fdroid" remote="suicide" revision="master" />
   <!-- spoof -->
   <project name="frameworks_base" path="frameworks/base" remote="ANDROID2468" revision="lineage-16.0" />
-
-
+  <!-- spoof -->
+  <project name="android_vendor_lineage" path="vendor/lineage" remote="ANDROID2468" revision="lineage-16.0" />
+  <!-- proprietary apps -->
+  <project name="proprietary_vendor_apps" path="vendor/apps" remote="ANDROID2468" revision="master" />
 </manifest>
