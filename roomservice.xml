@@ -59,4 +59,8 @@
   <project name="android_vendor_lineage" path="vendor/lineage" remote="ANDROID2468" revision="lineage-16.0" />
   <!-- proprietary apps -->
   <project name="proprietary_vendor_apps" path="vendor/apps" remote="ANDROID2468" revision="master" />
+  <!-- build script -->
+  <project path="vendor/g4_buildScripts" name="g4_buildScripts" revision="losVZW" remote="ANDROID2468" >
+    <linkfile src="buildAll.sh" dest="buildAll.sh" />
+  </project>
 </manifest>
