@@ -54,7 +54,7 @@
   <!-- FDroid -->
   <project name="android_vendor_fdroid" path="vendor/fdroid" remote="suicide" revision="master" />
   <!-- spoof -->
-  <project name="frameworks_base" path="frameworks/base" remote="ANDROID2468" revision="lineage-16.0" />
+  <project name="android_frameworks_base" path="frameworks/base" remote="ANDROID2468" revision="lineage-16.0" />
   <!-- spoof -->
   <project name="android_vendor_lineage" path="vendor/lineage" remote="ANDROID2468" revision="lineage-16.0" />
   <!-- proprietary apps -->
